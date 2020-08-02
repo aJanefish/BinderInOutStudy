@@ -36,7 +36,6 @@ public class InOutService extends Service {
             bean.setId(1);
             bean.setName("Service InTest");
             Log.d(TAG, "InTest end:" + bean);
-
         }
 
         @Override
@@ -44,7 +43,6 @@ public class InOutService extends Service {
             Log.d(TAG, "InTestShow start:" + in);
             in.setName("Service InTest Show");
             Log.d(TAG, "InTestShow end:" + in);
-
         }
 
         @Override

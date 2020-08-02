@@ -81,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     AidlBean inoutBean = new AidlBean(1000, "client inoutTest");
-
     public void inoutTest(View view) {
         try {
             Log.d(TAG, "inoutTest start:" + inoutBean);
@@ -105,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     AidlBean inBean = new AidlBean(1000, "client inTest");
-
     public void inTest(View view) {
         try {
             Log.d(TAG, "inTest start:" + inBean);
