@@ -1,0 +1,4 @@
+include ':binderservice'
+include ':ipc'
+include ':app'
+rootProject.name = "BinderInOutStudy"
